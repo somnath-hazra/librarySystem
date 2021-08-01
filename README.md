@@ -137,6 +137,6 @@
  
    * url to access h2 console - http://localhost:8080/h2-ui/
    * JDBC URL - `jdbc:h2:mem:testdb`
-   * username - sa
+   * username - somnath
    
    <img src="https://github.com/somnath-hazra/librarySystem/blob/main/images/H2-Database.png">
