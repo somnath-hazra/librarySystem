@@ -129,5 +129,14 @@
            * Type  - Bearer Token
            * Token - `Bearer eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJBdWN0aW9uQXBwIiwic3ViIjoic29tbmF0aCIsImF1dGhvcml0aWVzIjpbIlJPTEVfVVNFUiJdLCJ1c2VybmFtZSI6InNvbW5hdGgiLCJpYXQiOjE2Mjc4MzU4NDUsImV4cCI6MTYyNzgzNjQ0NX0.tZnEHS4BZpAZmWGbDP-aq-NTwgKfNcEH5WfBDz7z5Jo-o9JlNsEU7YTFYVZaAe6PX8uhcHg6PLuYzmQQViwZFw`
  
-**CommandLine run also supported:
+#####CommandLine run also supported:
 <img src="https://github.com/somnath-hazra/librarySystem/blob/main/images/CommandLineRun.png" alt="drawing" width="1000" height="300"/>
+
+
+##### H2 console access
+ 
+   * url to access h2 console - http://localhost:8080/h2-ui/
+   * JDBC URL - `jdbc:h2:mem:testdb`
+   * username - sa
+   
+   <img src="https://github.com/somnath-hazra/librarySystem/blob/main/images/H2-Database.png">
