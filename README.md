@@ -118,7 +118,7 @@
            * Token - `Bearer eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJBdWN0aW9uQXBwIiwic3ViIjoic29tbmF0aCIsImF1dGhvcml0aWVzIjpbIlJPTEVfVVNFUiJdLCJ1c2VybmFtZSI6InNvbW5hdGgiLCJpYXQiOjE2Mjc4MzU4NDUsImV4cCI6MTYyNzgzNjQ0NX0.tZnEHS4BZpAZmWGbDP-aq-NTwgKfNcEH5WfBDz7z5Jo-o9JlNsEU7YTFYVZaAe6PX8uhcHg6PLuYzmQQViwZFw`
 
 9. * Return an item:
-       GET URL: https://github.com/somnath-hazra/librarySystem/blob/main/images/ReturnAnItemFromACustomerAccount.png
+       GET URL:  <img src=https://github.com/somnath-hazra/librarySystem/blob/main/images/ReturnAnItemFromACustomerAccount.png>
 
         * Header
            * Content-Type : application/json
