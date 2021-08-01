@@ -16,4 +16,4 @@
  * Generating Bearer Token
     * http://localhost:8080/getToken?user=somnath&password=password1
     *     Simple api is used to generate bearer token and for simplicity just passing user/id ad pass as url param which is ofcoure is not a secure way to do it.
-<img src="https://github.com/somnath-hazra/librarySystem/tree/main/images/TokenCreation.png" alt="drawing" width="1000" height="300"/>  
+<img src="https://github.com/somnath-hazra/librarySystem/blob/master/images/TokenCreation.png" alt="drawing" width="1000" height="300"/>  
