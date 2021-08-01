@@ -20,9 +20,10 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
         http.csrf().disable()
                 .addFilterAfter(new JWTAuthorizationFilter(), UsernamePasswordAuthenticationFilter.class)
                 .authorizeRequests()
-                .antMatchers( "/getToken")
+                .antMatchers( "/getToken", "/h2-ui/**")
                 .permitAll()
                 .anyRequest().authenticated();
+        http.headers().frameOptions().disable();
 
 
     }
