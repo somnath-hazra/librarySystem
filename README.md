@@ -13,13 +13,16 @@
 
 ##### API Details
 
+0.  * Without Bearer Token validation error:
+     <img src=https://github.com/somnath-hazra/librarySystem/blob/main/images/WithoutAuthorizationHeader403.png>
+
  1.* Generating Bearer Token
     * http://localhost:8080/getToken?user=somnath&password=password1
     *     Simple api is used to generate bearer token and for simplicity just passing user/id ad pass as url param which is ofcoure is not a secure way to do it.
 <img src="https://github.com/somnath-hazra/librarySystem/blob/master/images/TokenCreation.png" alt="drawing" width="1000" height="300"/>  
 
 2. * onboard an item
-       POST URL: https://github.com/somnath-hazra/librarySystem/blob/main/images/OnboardItem100.png
+       POST URL:  <img src=https://github.com/somnath-hazra/librarySystem/blob/main/images/OnboardItem100.png>
 
         * Header
            * Content-Type : application/json
@@ -40,7 +43,7 @@
         
         
 3. * register a customer
-       POST URL: https://github.com/somnath-hazra/librarySystem/blob/main/images/RegisterCustomer1.png
+       POST URL:  <img src=https://github.com/somnath-hazra/librarySystem/blob/main/images/RegisterCustomer1.png>
 
         * Header
            * Content-Type : application/json
@@ -59,7 +62,7 @@
            }```
           
 4. * Issue items to a customer
-       POST URL: https://github.com/somnath-hazra/librarySystem/blob/main/images/IssueCustomer1Items124.png
+       POST URL:  <img src=https://github.com/somnath-hazra/librarySystem/blob/main/images/IssueCustomer1Items124.png>
 
         * Header
            * Content-Type : application/json
@@ -73,7 +76,7 @@
           ```      
 
 5. * Overdue items for a customer and total charges
-       GET URL: https://github.com/somnath-hazra/librarySystem/blob/main/images/OverdueItemsAndChargesForCustomer3.png
+       GET URL:  <img src=https://github.com/somnath-hazra/librarySystem/blob/main/images/OverdueItemsAndChargesForCustomer3.png>
 
         * Header
            * Content-Type : application/json
@@ -82,7 +85,7 @@
            * Token - `Bearer eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJBdWN0aW9uQXBwIiwic3ViIjoic29tbmF0aCIsImF1dGhvcml0aWVzIjpbIlJPTEVfVVNFUiJdLCJ1c2VybmFtZSI6InNvbW5hdGgiLCJpYXQiOjE2Mjc4MzU4NDUsImV4cCI6MTYyNzgzNjQ0NX0.tZnEHS4BZpAZmWGbDP-aq-NTwgKfNcEH5WfBDz7z5Jo-o9JlNsEU7YTFYVZaAe6PX8uhcHg6PLuYzmQQViwZFw`
         
 6. * Get details of a customer
-       GET URL: https://github.com/somnath-hazra/librarySystem/blob/main/images/Customer1Details.png
+       GET URL:  <img src=https://github.com/somnath-hazra/librarySystem/blob/main/images/Customer1Details.png>
 
         * Header
            * Content-Type : application/json
@@ -91,7 +94,7 @@
            * Token - `Bearer eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJBdWN0aW9uQXBwIiwic3ViIjoic29tbmF0aCIsImF1dGhvcml0aWVzIjpbIlJPTEVfVVNFUiJdLCJ1c2VybmFtZSI6InNvbW5hdGgiLCJpYXQiOjE2Mjc4MzU4NDUsImV4cCI6MTYyNzgzNjQ0NX0.tZnEHS4BZpAZmWGbDP-aq-NTwgKfNcEH5WfBDz7z5Jo-o9JlNsEU7YTFYVZaAe6PX8uhcHg6PLuYzmQQViwZFw`
             
 7. * Get issued items to a customer
-       GET URL: https://github.com/somnath-hazra/librarySystem/blob/main/images/Customer1IssuedItems.png
+       GET URL:  <img src=https://github.com/somnath-hazra/librarySystem/blob/main/images/Customer1IssuedItems.png>
 
         * Header
            * Content-Type : application/json
@@ -100,7 +103,7 @@
            * Token - `Bearer eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJBdWN0aW9uQXBwIiwic3ViIjoic29tbmF0aCIsImF1dGhvcml0aWVzIjpbIlJPTEVfVVNFUiJdLCJ1c2VybmFtZSI6InNvbW5hdGgiLCJpYXQiOjE2Mjc4MzU4NDUsImV4cCI6MTYyNzgzNjQ0NX0.tZnEHS4BZpAZmWGbDP-aq-NTwgKfNcEH5WfBDz7z5Jo-o9JlNsEU7YTFYVZaAe6PX8uhcHg6PLuYzmQQViwZFw`
 
 8. * Get availability of a item
-       GET URL: https://github.com/somnath-hazra/librarySystem/blob/main/images/AvailableCountForItem1.png
+       GET URL:  <img src=https://github.com/somnath-hazra/librarySystem/blob/main/images/AvailableCountForItem1.png>
 
         * Header
            * Content-Type : application/json
@@ -109,7 +112,7 @@
            * Token - `Bearer eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJBdWN0aW9uQXBwIiwic3ViIjoic29tbmF0aCIsImF1dGhvcml0aWVzIjpbIlJPTEVfVVNFUiJdLCJ1c2VybmFtZSI6InNvbW5hdGgiLCJpYXQiOjE2Mjc4MzU4NDUsImV4cCI6MTYyNzgzNjQ0NX0.tZnEHS4BZpAZmWGbDP-aq-NTwgKfNcEH5WfBDz7z5Jo-o9JlNsEU7YTFYVZaAe6PX8uhcHg6PLuYzmQQViwZFw`
 
 8. * Get all customers
-       GET URL: https://github.com/somnath-hazra/librarySystem/blob/main/images/AllCustomers.png
+       GET URL:  <img src=https://github.com/somnath-hazra/librarySystem/blob/main/images/AllCustomers.png>
 
         * Header
            * Content-Type : application/json
@@ -118,7 +121,7 @@
            * Token - `Bearer eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJBdWN0aW9uQXBwIiwic3ViIjoic29tbmF0aCIsImF1dGhvcml0aWVzIjpbIlJPTEVfVVNFUiJdLCJ1c2VybmFtZSI6InNvbW5hdGgiLCJpYXQiOjE2Mjc4MzU4NDUsImV4cCI6MTYyNzgzNjQ0NX0.tZnEHS4BZpAZmWGbDP-aq-NTwgKfNcEH5WfBDz7z5Jo-o9JlNsEU7YTFYVZaAe6PX8uhcHg6PLuYzmQQViwZFw`
 
 9. * Return an item:
-       GET URL:  <img src=https://github.com/somnath-hazra/librarySystem/blob/main/images/ReturnAnItemFromACustomerAccount.png>
+       POST URL:  <img src=https://github.com/somnath-hazra/librarySystem/blob/main/images/ReturnAnItemFromACustomerAccount.png>
 
         * Header
            * Content-Type : application/json
